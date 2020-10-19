@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15rem;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 20%;
+    text-align: left;
+    align-items: center;
+}
+button {
+    margin-top: 0.5rem;
+}
+
