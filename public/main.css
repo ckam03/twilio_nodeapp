@@ -3,22 +3,52 @@
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 15rem;
+    margin-top: 12rem;
+    background-color: #b2bec3;
+}
+
+div {
+    border-radius: 15px;
+    background-color:#fbfbfb;
+    padding: 20px;
+    width: 20%;
 }
 
 form {
     display: grid;
     grid-template-columns: 1fr;
-    width: 20%;
     text-align: left;
     align-items: center;
+    justify-content: center;
+}
+
+input {
+    padding: 4px;
+    border: 1px solid #333;
+}
+textarea {
+    border: 1px solid #333;
+}
+label[for=message] {
+    margin-top: 15px;
 }
 button {
     margin-top: 0.5rem;
+    background-color: #0984e3;
+    color:#fbfbfb;
+    cursor: pointer;
+    border: 1px solid #333;
+    height: 2.5em;
+}
+
+button:hover {
+
+    background-color: #0c6db8fd;
+
 }
 
